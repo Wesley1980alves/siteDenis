@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      background-color: #E1D89F;
+    }
+  </style>
+  <title>Fale Conosco</title>
+  <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+  <nav class="menu">
+    <ul>
+      <li><a href="index.html">Página inicial</a></li>
+      <li><a href="ar.html" rel="next">Elementos</a>
+        <ul>
+          <li><a href="agua.html">Água</a></li>
+          <li><a href="terra.html">Terra</a></li>
+          <li><a href="fogo.html">Fogo</a></li>
+          <li><a href="ar.html">Ar</a></li>
+
+        </ul>
+      <li><a href="galeria.html">Galeria</a></li>
+      <li><a href="fale_conosco.html">Fale Conosco</a></li>
+
+      </li>
+
+    </ul>
+  </nav>
+
+
+  <br>
+  <main>
+    <p class="indireitaTrem"><strong><em>Ajude o Master Disaster com sugestões,criticas,elogios ou
+          duvidas.</em></strong></p>
+    <form>
+      <fieldset>
+        <legend>Venha fazer parte dessa cruzada em prol do planeta,cadastre-se já!</legend>
+        <p><label for="idtextName">Nome:</label><input type="text" name="ntextName" id="idtextName" size="60"
+            placeholder="Nome completo"></p>
+        <br>
+        <p><label for="idDate">Data de nascimento:</label><input type="date" name="nDate" id="idDate"></p>
+        <br>
+        <p><label for="idAge">Idade:</label><input type="number" name="nAge" id="idAge" min="1" max="120"></p>
+        <br>
+        <fieldset class="sexo">
+          <legend>Sexo:</legend>
+          <label for="idSexoF">Feminino</label><input type="radio" name="nSexo" id="idSexoF">
+          <label for="idSexoM">Masculino</label><input type="radio" name="nSexo" id="idSexoM">
+          <label for="idOutros">Outros</label><input type="radio" name="nSexo" id="idOutros"></p>
+        </fieldset>
+        <br>
+        <p><label for="idCity">Cidade:</label><input type="text" name="nCity" id="idCity" size="40"></p>
+        <br>
+
+        <p><label for="idState">Estado:</label> <select name="nState" id="idState">
+            <option>AC</option>
+            <option>AL</option>
+            <option>AP</option>
+            <option>AM</option>
+            <option>BA</option>
+            <option>CE</option>
+            <option>DF</option>
+            <option>ES</option>
+            <option>GO</option>
+            <option>MA</option>
+            <option>MT</option>
+            <option>MS</option>
+            <option>MG</option>
+            <option>PA</option>
+            <option>PB</option>
+            <option>PR</option>
+            <option>PE</option>
+            <option>PI</option>
+            <option>RJ</option>
+            <option>RN</option>
+            <option>RS</option>
+            <option>RO</option>
+            <option>RR</option>
+            <option>SC</option>
+            <option>SP</option>
+            <option>SE</option>
+            <option>TO</option>
+          </select></p>
+        <br>
+        <p><label for="idCelNumber">Telefone:</label><input type="tel" name="nCelNumber" id="idCelNumber"
+            placeholder="Ex:99 99999-9999"></p>
+        <br>
+        <p><label for="idEmail">E-mail:</label><input type="email" name="nEmail" id="idEmail" size="30"></p>
+        <br>
+        <p><label for="idUser">Nome de usuario para login:</label><input type="text" name="nUser" id="idUser" size="30">
+        </p>
+        <br>
+        <p><label for="idPass">Crie uma senha:</label><input type="password" name="nPass" id="idPass" size="15"></p>
+        <br>
+        <p><label for="CidPass">Confirme sua senha:</label><input type="password" name="nCPass" id="CidPass" size="15"
+            maxlength="15"></p>
+        <br>
+        <p> A seguir ajude-nos com informações para um possivel panorama geral da conciencia sobre nosso planeta.</p>
+        <br>
+        <p><label for="idSatis">Seu nivel de preocupação ambiental: </label><input type="range" name="nSatis"
+            id="idSatis" min="0" max="100"></p>
+        <br>
+        <fieldset class="empenho">
+          <legend>O quanto você se empenhou em prol do planeta ao longo da vida?</legend>
+          <label for="idMuch">Muito</label><input type="radio" name="nHow" id="idMuch">
+          <label for="idLitle">Pouco</label><input type="radio" name="nHow" id="idLitle">
+          <label for="idFuckYou">Fiz nada</label><input type="radio" name="nHow" id="idFuckYou"></p>
+
+        </fieldset>
+        <br>
+        <p><label for="idTragedia">Qual desastre te impressiona e assusta mais?</label><input type="text"
+            name="nTragedia" id="idTragedia" size="20"></p>
+        <br>
+        <p><label for="idQuest">Qual o futuro do Planeta?:</label> <select name="nQuest" id="idQuest">
+            <option>Extinção de todos os seres vivos</option>
+            <option>Abondono por migração planetaria</option>
+            <option>Tentativas tardias em vão de recuperção</option>
+            <option>Esforço mundial para preservação efetiva</option>
+            <option>Nenhuma das anteriores</option>
+          </select></p>
+        <br>
+        <label for="idEnviar"></label><input type="submit" name="nEnviar" id="idEnviar">
+        <br>
+      </fieldset>
+    </form>
+  </main>
+</body>
+
+</html>

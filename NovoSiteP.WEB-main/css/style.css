@@ -1,0 +1,134 @@
+@charset "UTF-8";
+:root{
+    --fogo:#F77F00;
+    --agua:#3F88C5;
+    --terra:#5E3023;
+    --ar:#F4EBD9;
+    --intruso:#E1D89F;
+    --branco:#FFFFFF;
+    --preto:#000000;
+}
+*{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*configuracao dp menu */
+.menu>ul{
+    list-style-type: none;
+    padding: 0;
+
+
+}
+.menu>ul{
+    background-color: var(--preto);
+}
+.menu ul li{
+    display: inline-block;
+    position: relative;
+}
+.menu>ul>li>a{
+    color: var(--branco);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+.menu>ul>li>a:hover{
+    background-color: var(--agua);
+    
+}
+
+/*submenu*/
+
+
+.menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+  
+
+}
+.menu ul li :hover>ul {
+    display: inline-block;
+
+}
+.menu ul li:hover>ul {
+    display: block;
+    background-color: var(--fogo);
+
+}
+.menu>ul>ul{
+    width: 120px;
+}
+
+.menu ul ul li a{
+    display: block;
+}
+
+.menu ul li:hover>ul {
+    display: block;
+
+}
+
+
+
+
+
+
+
+img{border: 3px solid #000000;
+    margin: auto;
+    display: block;}
+
+p{
+    text-align:justify;
+    text-indent: 24px;
+    padding: 0px  0px  0px  185px;
+}
+h1{text-align: center;}
+h2{text-align: center;}
+h3{text-align: center;}
+
+
+main{
+    border: 2px solid #000000;
+    border-radius: 1%;
+    margin: auto;
+    width: 1050px;
+    box-shadow: 10px 11px 13px #010001;
+    text-align:left;
+    line-height: 1.5em;
+    padding: 20px;
+    margin: bottom 50px;
+    
+}
+iframe{margin: 0 auto;
+    display: block; }
+
+fieldset{border: 2px solid #000000;
+text-align: center;
+padding: 23px;
+}
+.sexo{border: 2px solid #000000;
+    padding: 13px;
+    width: 221px;
+    margin: auto;
+    }
+.empenho{
+    border: 2px solid #000000;
+    padding: 13px;
+    width: 221px;
+    margin: auto;
+    
+}
+.indireitaTrem{text-align: justify;
+margin:auto;
+padding: 0px 0px 0px 291px;}
+
+/*margin: 12px;
+color:var(--preto);
+text-decoration: none;
+padding-top: 6px;
+padding-bottom: 6px;
+text-decoration: none;*/
